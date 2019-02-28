@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import BaseFooter from '../../components/Base/BaseFooter'
+import BaseFooter from '@/components/Base/BaseFooter'
 import TheHeader from './TheHeader'
 import TheConect from './TheConect'
 
@@ -25,6 +25,7 @@ export default {
 @import '@/style/common/px2rem.scss';
 
 .home{
+  color: #666;
   height: 100%;
   font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
 }

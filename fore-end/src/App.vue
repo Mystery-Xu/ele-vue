@@ -6,7 +6,6 @@
 
 <script>
 
-
 export default {
   name: 'app',
   components: {
@@ -18,5 +17,8 @@ export default {
 @import 'style/base.scss';
 #app{
   height: 100%;
+}
+.router-active{
+  color: blue;
 }
 </style>
