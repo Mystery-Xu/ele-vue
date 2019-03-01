@@ -17,6 +17,8 @@ export default {
 @import 'style/base.scss';
 #app{
   height: 100%;
+  font-family: 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif;
+
 }
 .router-active{
   color: blue;

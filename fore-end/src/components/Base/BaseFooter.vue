@@ -1,19 +1,19 @@
 <template>
   <div class='c-footer'>
     <ul>
-        <router-link tag="li" to="/" class="cf-home" active-class="router-active">
+        <router-link tag="li" to="/" class="cf-home">
           <i class="iconfont icon-SSS"></i>
             首页
         </router-link>
-        <router-link to="/discover" tag="li" class="cf-sort" active-class="router-active">
+        <router-link to="/discover" tag="li" class="cf-sort">
           <i class="iconfont icon-icon-test"></i>
             <span>发现</span>
         </router-link>
-        <router-link to="/order" tag="li" class="cf-order" active-class="router-active">
+        <router-link to="/order" tag="li" class="cf-order">
           <i class="iconfont icon-dingdan"></i>
             <span>订单</span>
         </router-link>
-        <router-link to="" tag="li" class="cf-me" active-class="router-active">
+        <router-link to="/profile" tag="li" class="cf-me">
           <i class="iconfont icon-xiazai4"></i>
             <span>我的</span>
         </router-link>

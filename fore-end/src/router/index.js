@@ -11,6 +11,14 @@ const router = new Router({
     {
       path: '/discover',
       component: () => import('@/views/discover/MyDiscover.vue'),
+    },
+    {
+      path: '/order',
+      component: () => import('@/views/order/MyOrder.vue'),
+    },
+    {
+      path: '/profile',
+      component: () => import('@/views/profile/MyProfile.vue'),
     }
   ]
 })
